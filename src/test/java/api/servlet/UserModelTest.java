@@ -8,7 +8,7 @@ public class UserModelTest {
 
     @Test
     public void getRealUser() {
-        UserModel userModel = new UserModel();
+        UserModel userModel = new UserModel()
         User user = userModel.getUser();
         assertEquals("1111", user.getId());
         assertEquals("Up1", user.getName());
