@@ -10,7 +10,7 @@ public class UserModelTest {
     public void getRealUser() {
         UserModel userModel = new UserModel();
         User user = userModel.getUser();
-        assertEquals("1111", user.getId());
+        assertEquals("111", user.getId());
         assertEquals("Up1", user.getName());
     }
 
